@@ -1,0 +1,21 @@
+name: Plugin bauen
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Mit Maven bauen
+        run: mvn -B package
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PurpleKush-Extras
+          path: target/PurpleKush-Extras-*.jar
