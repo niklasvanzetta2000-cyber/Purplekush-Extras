@@ -10,11 +10,9 @@
   <packaging>jar</packaging>
 
   <properties>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
+    <maven.compiler.release>25</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!-- HIER die Paper-API-Version fuer 26.3 eintragen (siehe papermc.io/downloads) -->
-    <paper.version>26.3.build.+</paper.version>
+    <paper.version>[26.3.build,)</paper.version>
   </properties>
 
   <repositories>
