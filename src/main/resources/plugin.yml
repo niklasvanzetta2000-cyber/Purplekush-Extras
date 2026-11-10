@@ -1,0 +1,6 @@
+name: PurpleKush-Extras
+version: 1.26.3
+main: de.purplekush.extras.PurpleKushExtras
+api-version: "26.3"
+description: Schoener Chat, Tode in der Tabliste und nur 1/3 der Spieler muss schlafen.
+author: PurpleKush

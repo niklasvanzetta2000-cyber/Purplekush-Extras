@@ -1,0 +1,21 @@
+# PurpleKush-Extras
+
+chat:
+  enabled: true
+  # Farben: Namen wie light_purple, gold, aqua, white ... oder Hex wie "#B070FF"
+  name-color: light_purple
+  separator-color: gray
+  message-color: white
+
+tab:
+  enabled: true
+  symbol: "☠"
+  # Farbe der Todeszahl: gruen bis X Tode, gelb bis X, gold bis X, danach rot
+  green-until: 4
+  yellow-until: 14
+  gold-until: 29
+
+sleep:
+  enabled: true
+  # Prozent der Spieler, die schlafen muessen (33 = ein Drittel)
+  percentage: 33
